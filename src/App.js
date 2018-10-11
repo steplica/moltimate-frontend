@@ -1,14 +1,12 @@
 import React, { Component } from 'react';
-import Menu from './components/navigation/Menu';
-import ProteinContainer from './components/protein/ProteinContainer.js';
+import MotifSearch from './components/MotifSearch';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div>
-        <Menu />
-        <ProteinContainer />
+        <MotifSearch/>
       </div>
     );
   }

@@ -7,6 +7,9 @@
   font-style: normal; }
 
 .lm-plugin {
+  width: 75%;
+  height: 75%;
+  margin-left: 200px;
   font-family: "Helvetica Neue", "Source Sans Pro", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
@@ -1396,7 +1399,7 @@
     border-bottom-width: 0; }
   .lm-plugin .dropup .lm-btn-lg .caret, .lm-plugin .dropup .lm-btn-group-lg > .lm-btn .caret, .lm-plugin .dropup .lm-control-row .lm-btn-group-lg > button .caret, .lm-plugin .lm-control-row .dropup .lm-btn-group-lg > button .caret {
     border-width: 0 5px 5px; }
-  
+
   .lm-plugin .lm-btn-group-vertical > .lm-btn,
   .lm-plugin .lm-control-row .lm-btn-group-vertical > button,
   .lm-plugin .lm-btn-group-vertical > .lm-btn-group,
@@ -1411,7 +1414,7 @@
     display: table; }
   .lm-plugin .lm-btn-group-vertical > .lm-btn-group:after {
     clear: both; }
-  
+
   .lm-plugin .lm-btn-group-vertical > .lm-btn-group > .lm-btn,
   .lm-plugin .lm-control-row .lm-btn-group-vertical > .lm-btn-group > button {
     float: none; }
@@ -1567,12 +1570,12 @@
         margin-left: -1px; }
       .lm-plugin .input-group-lm-btn > .lm-btn:hover, .lm-plugin .lm-control-row .input-group-lm-btn > button:hover, .lm-plugin .input-group-lm-btn > .lm-btn:focus, .lm-plugin .lm-control-row .input-group-lm-btn > button:focus, .lm-plugin .input-group-lm-btn > .lm-btn:active, .lm-plugin .lm-control-row .input-group-lm-btn > button:active {
         z-index: 2; }
-    
+
     .lm-plugin .input-group-lm-btn:first-child > .lm-btn,
     .lm-plugin .lm-control-row .input-group-lm-btn:first-child > button,
     .lm-plugin .input-group-lm-btn:first-child > .lm-btn-group {
       margin-right: -1px; }
-    
+
     .lm-plugin .input-group-lm-btn:last-child > .lm-btn,
     .lm-plugin .lm-control-row .input-group-lm-btn:last-child > button,
     .lm-plugin .input-group-lm-btn:last-child > .lm-btn-group {
