@@ -39,6 +39,7 @@ class NestedList extends React.Component {
 
     return (
       <div className={classes.root}>
+        <small>Loading Results...</small>
         <List
           component="nav"
         >
@@ -54,7 +55,7 @@ class NestedList extends React.Component {
                   0-2: A_lakd_1_14_15_1
                 </ListItemText>
               </ListItem>
-              <ListItem button className={classes.nested}>
+              <ListItem selected={true}  button className={classes.nested}>
                 <ListItemText inset primary="0-2: A_ldfg_1_5_28_1" />
               </ListItem>
               <ListItem button className={classes.nested}>

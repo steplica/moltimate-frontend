@@ -4,6 +4,8 @@ import { withStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
 import Icon from '@material-ui/core/Icon';
 import MenuIcon from '@material-ui/icons/Menu';
+import AddIcon from '@material-ui/icons/Add';
+import NavigationIcon from '@material-ui/icons/Navigation';
 
 const styles = theme => ({
   button: {
@@ -13,8 +15,11 @@ const styles = theme => ({
     marginRight: theme.spacing.unit,
   },
   centerButtons: {
-    textAlign: 'right',
+    maxWidth: 100,
   },
+  right: {
+    textAlign: 'right',
+  }
 });
 
 function FloatingActionButtons(props) {

@@ -68,12 +68,6 @@ class InputAdornments extends React.Component {
 
     return (
       <div className={classes.root}>
-        <TextField
-          label="Precision Factor "
-          id="simple-start-adornment"
-          placeholder="1.0"
-          className={classNames(classes.margin, classes.textField)}
-        />
         <FormControlLabel
           control={
             <Checkbox

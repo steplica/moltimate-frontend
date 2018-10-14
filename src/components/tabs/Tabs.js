@@ -57,8 +57,8 @@ class SimpleTabs extends React.Component {
         <AppBar position="static">
           <Tabs
             value={value} onChange={this.handleChange}>
-            <Tab label="Tools" />
             <Tab label="Results" />
+            <Tab label="Tools" />
           </Tabs>
         </AppBar>
         {value === 0 && <TabContainer><ResultList/></TabContainer>}
